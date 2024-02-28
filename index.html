@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorer sem limites</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="top-section">
+      <img
+        src="./assets/astronaut.png"
+        alt="Drawing of an astronaut floating in space with planets, moons and stars in the background."
+      />
+      <div class="section-wrapper">
+        <div class="text">
+          <h1>Explore without limits</h1>
+          <p>Why is learning continuous?</p>
+        </div>
+        <button>
+          <a href="#form"
+            ><img src="./assets/arrow.svg" alt="Arrow down icon"
+          /></a>
+        </button>
+      </div>
+    </section>
+    <main>
+      <div class="card">
+        <img src="./assets/yellow-moon.svg" alt="A yellow moon image" />
+        <h2>Never stop</h2>
+        <p>
+          If you want to succeed in your studies, it's crucial that you adopt a
+          "never stop" mindset. Studying consistently and continuously is the
+          key to progress and achieving your goals.
+        </p>
+      </div>
+      <div class="card">
+        <img src="./assets/blue-moon.svg" alt="A blue moon image" />
+        <h2>Just return</h2>
+        <p>
+          If you've stopped or lost momentum in any activity or project, know
+          that it's never too late to start again. Sometimes, circumstances can
+          change, or we may feel demotivated or overwhelmed.
+        </p>
+      </div>
+      <div class="card">
+        <img src="./assets/pink-moon.svg" alt="A pink moon image" />
+        <h2>Follow your own pace</h2>
+        <p>
+          Advancing little by little maintains steady progress towards goals,
+          avoiding stopping or giving up. Even small steps bring us closer to
+          the destination and motivate continuity. Do not underestimate the
+          power of each action toward the final goal.
+        </p>
+      </div>
+    </main>
+    <fieldset id="form">
+      <div class="fieldset-wrapper">
+        <legend>Get in touch</legend>
+        <form>
+          <div class="input-wrapper">
+            <label for="event-name">Your name</label>
+            <input
+              class="name"
+              type="text"
+              id="event-name"
+              placeholder="Your name"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="event-email">Email</label>
+            <input
+              class="email"
+              type="email"
+              id="event-email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="event-message">Enter your message here...</label>
+            <textarea
+              id="event-message"
+              placeholder="Enter your message here..."
+            ></textarea>
+          </div>
+          <button>Send message</button>
+        </form>
+      </div>
+      <img class="stars" src="./assets/stars.svg" alt="A bunch of pink stars" />
+    </fieldset>
+
+    <footer>© 2023 - Rocketseat Explorer</footer>
+  </body>
+</html>
